@@ -1,5 +1,5 @@
 basic:
-    name: 'Aglae Grimes I'
+    name: 'Dr. Timmy Altenwerth'
     breakpoints:
         - 640
         - 1024
@@ -13,7 +13,6 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
     delay: 15
     scroll: true
     headers:
@@ -22,9 +21,14 @@ advanced:
     custom_js: ''
     custom_css: ''
     mock_content: ''
+    sensitivity: 15
+    night_mode: ''
+    retina_images: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
+proxy: false
+type: multiple-sites
